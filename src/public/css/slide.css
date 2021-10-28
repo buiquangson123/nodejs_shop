@@ -1,0 +1,138 @@
+/* -------------------------------------- home slideshow ------------------------------------- */
+
+.gird__row-slide {
+    padding-top: 30px;
+}
+
+.slide-show {
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider .slides .navigation-active {
+    overflow: visible;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.25s linear;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide-item {
+    width: 800px;
+    transition: 2s;
+}
+
+.slide-item-img {
+    object-fit: contain;
+    object-position: top center;
+    width: 100%;
+    height: 100%;
+}
+
+.image-beside-slide {
+    width: 100%;
+    padding-left: 6px;
+}
+
+.image_show-body {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.slides-dots {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    bottom: 10px;
+    justify-content: center;
+    list-style: none;
+}
+
+.slides-dot-item {
+    border-radius: 10px;
+    border: 2px solid var(--orange-color);
+    padding: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.slides-dot-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.slides-dot-item:hover {
+    background-color: var(--orange-color);
+}
+
+.slides-dot-item.active {
+    background-color: var(--orange-color);
+}
+
+.navigation-active {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    top: 43%;
+    justify-content: space-between;
+}
+
+.click-prev,
+.click-next {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(247, 242, 242, 0.952);
+    box-shadow: 0 1px 12px 0 rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.click-next:hover,
+.click-prev:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+}
+
+.click-prev:hover,
+.click-next:hover {
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 60%);
+}
+
+.click-prev {
+    margin-left: -15px;
+}
+
+.click-next {
+    margin-right: -15px;
+}
+
+.click-prev-icon,
+.click-next-icon {
+    width: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.click-prev-icon {
+    margin-left: -2px;
+}
+
+.click-next-icon {
+    margin-right: -2px;
+}
