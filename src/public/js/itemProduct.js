@@ -786,7 +786,7 @@ async function productItem(id) {
 
         const btnPrevAmount = document.querySelector(".btn-minus");
         const btnNextAmount = document.querySelector(".btn-plus");
-        const textAmount = document.querySelector(".text-amount");
+        let textAmount = document.querySelector(".text-amount");
         let valueAmount = parseInt(textAmount.value);
 
         btnPrevAmount.onclick = function () {
