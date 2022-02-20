@@ -1,0 +1,38 @@
+.main-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  background-color: var(--white-color);
+  animation: fadeIn linear 0.15s;
+  z-index: 10;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.loading div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--orange-color);
+  margin-right: 5px;
+  animation: loading 0.5s infinite cubic-bezier(0.47, 0, 0.745, 0.715) alternate;
+  animation-delay: calc(1 * (0.5 / 4) * var(--delay));
+}
+
+@keyframes loading {
+  0% {
+    transform: translateY(0);
+  }
+  50%,
+  100% {
+    transform: translateY(15px);
+  }
+}

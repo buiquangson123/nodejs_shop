@@ -9,13 +9,12 @@ const dotItem = $$('.slides-dot-item')
 const slidesItemWidth = slidesItem[0].offsetWidth;
 const slidesLength = slidesItem.length;
 
-
 let index = 0;
 let postionX = 0;
 
 setInterval(function() {
     handleChangeSlide(1)
-}, 3000);
+}, 5000);
 
 nextBtn.addEventListener('click', function(){
     console.log("yes")

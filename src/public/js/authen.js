@@ -10,10 +10,11 @@ const loginLogoutItem = $('.header__navbar-item--strong')
 const loginLogoutItem1 = $('.header__navbar-item--strong:last-child')
 
 authenRegis.onclick = function() {
-    
+    document.getElementsByTagName("html")[0].style.overflowY = "hidden";
     const main = $('.modal__body')
     if(main) {
         $('.modal').style.display = 'flex'
+        document.body.style.overflowY = "hidden"
         const body = document.createElement('div')
         body.classList.add('auth-form')
         body.innerHTML = `
@@ -72,9 +73,9 @@ authenRegis.onclick = function() {
 
    
 }
-    
 
 authenLogin.onclick = function() {
+    document.getElementsByTagName("html")[0].style.overflowY = "hidden";
     const main = $('.modal__body')
     if(main) {
         $('.modal').style.display = 'flex'
@@ -231,11 +232,20 @@ authenLogin.onclick = function() {
 }
 
 function removeAuthForm() {
+    const slideForm = $('.slide-form')
+    if(slideForm) {
+        slideForm.innerHTML = ''
+        $('.modal').style.display = 'none'
+        slideForm.classList.remove('auth-form')
+        slideForm.parentNode.removeChild(slideForm)
+    }
     const authForm = $('.auth-form')
-    authForm.innerHTML = ''
-    $('.modal').style.display = 'none'
-    authForm.classList.remove('auth-form')
-    authForm.parentNode.removeChild(authForm)
+    if(authForm) {
+        authForm.innerHTML = ''
+        $('.modal').style.display = 'none'
+        authForm.classList.remove('auth-form')
+        authForm.parentNode.removeChild(authForm)
+    }
 }
 
 function loginClick() {
@@ -250,11 +260,13 @@ function regisClick() {
 
 function btnBack() {
     removeAuthForm()
+    document.getElementsByTagName("html")[0].style.overflowY = "scroll";
 }
 
 
 overlay.onclick = function(e) {
     if(e.target.closest('.modal__overlay')){
         removeAuthForm()
+        document.getElementsByTagName("html")[0].style.overflowY = "scroll";
     }    
 }

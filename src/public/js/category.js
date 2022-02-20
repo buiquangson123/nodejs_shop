@@ -2,22 +2,27 @@
 document.documentElement.style.setProperty("--width-cate-mobile", $('.home__mobile-cate').offsetWidth+`px`);
 
 // Category
-const withItemCate = $$('.grid__row-cate-item')[0].offsetWidth
-const amountCate = getComputedStyle($('.grid__row-cate-slides')).getPropertyValue('--amountCate')
-console.log("width: " + withItemCate + "amout: " + amountCate)
-$('.btn-next').addEventListener('click', function(){
-    const positionCate = -1*withItemCate*(13-amountCate)
-    console.log("Cate: " + positionCate)
-    $('.grid__row-cate-slides').style = `transform: translateX(${positionCate}px)`
-    $('.btn-prev').style.display = "flex"
-    $('.btn-next').style.display = "none"
-})
+setTimeout(() => {
+    const withItemCate = $$('.grid__row-cate-item')[0].offsetWidth
 
-$('.btn-prev').addEventListener('click', function(){
-    $('.grid__row-cate-slides').style = `transform: translateX(0px)`
-    $('.btn-prev').style.display = "none"
-    $('.btn-next').style.display = "flex"
-})
+    const amountCate = getComputedStyle($('.grid__row-cate-slides')).getPropertyValue('--amountCate')
+    console.log(withItemCate)
+    console.log("width: " + withItemCate + "amout: " + amountCate)
+    $('.btn-next').addEventListener('click', function(){
+        const positionCate = -1*withItemCate*(13-amountCate)
+        console.log("Cate: " + positionCate)
+        $('.grid__row-cate-slides').style = `transform: translateX(${positionCate}px)`
+        $('.btn-prev').style.display = "flex"
+        $('.btn-next').style.display = "none"
+    })
+
+    $('.btn-prev').addEventListener('click', function(){
+        $('.grid__row-cate-slides').style = `transform: translateX(0px)`
+        $('.btn-prev').style.display = "none"
+        $('.btn-next').style.display = "flex"
+    })
+
+}, 500);
 
 // Flash sale
 window.addEventListener('load', function() {
