@@ -2,7 +2,7 @@ const path = require("path");
 var express = require("express");
 const morgan = require("morgan");
 var app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const id = 10;
 
 //Tạo đường dẫn tĩnh
