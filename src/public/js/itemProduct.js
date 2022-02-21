@@ -786,7 +786,7 @@ async function productItem(id) {
 
         const btnPrevAmount = document.querySelector(".btn-minus");
         const btnNextAmount = document.querySelector(".btn-plus");
-        let textAmount = document.querySelector(".text-amount");
+        const textAmount = document.querySelector(".text-amount");
         let valueAmount = parseInt(textAmount.value);
 
         btnPrevAmount.onclick = function () {
@@ -1053,6 +1053,7 @@ async function productItem(id) {
               localStorage.setItem("CART_STORAGE", JSON.stringify(listCart));
               localStorage.setItem("amountCart", amount);
 
+              valueAmount = 1;
               document.querySelector(".text-amount").value = 1;
               if (document.querySelector(".pr-noti")) {
                 document.querySelector(".pr-noti").classList.remove("pr-noti");
