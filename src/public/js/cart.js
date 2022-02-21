@@ -35,9 +35,9 @@ iconCart.onmouseover = function (e) {
                                 </div>
                                 <div class="header__cart-item-cost">
                                     <p class="header__cart-des">${item.price}</p>
-                                    <p class="header__cart-des">x ${item.amountCart}</p>
+                                    <p class="header__cart-des amount">x ${item.amountCart}</p>
                                     <div class="header__cart-item-delete index-${item.size}-${item.color}" id=${item.id}>
-                                    <span class="header__cart-dele-active">Xóa</span>
+                                    <span class="header__cart-dele-active amount-${item.amountCart}">Xóa</span>
                                     </div>
                                     </div>
                                     
@@ -65,8 +65,9 @@ iconCart.onmouseout = function (e) {
         deleteItem.style.background = "var(--orange-color)";
         deleteItem.querySelector("span").style.color = "var(--white-color)";
 
-        const listCart = displayCart.querySelector(".header__cart-list-add");
         deleteItem.addEventListener("click", async (event) => {
+          let itemDeleCart = e.target.getAttribute("class").split("-").pop();
+          console.log(">>>>check delete: ", itemDeleCart);
           let id = await event.target
             .closest(".header__cart-item-delete")
             .getAttribute("id")
@@ -79,6 +80,9 @@ iconCart.onmouseout = function (e) {
             .split("-")
             .splice(3, 2);
 
+          let listCart = await displayCart.querySelector(
+            ".header__cart-list-add"
+          );
           if (listCart.childNodes.length > 0) {
             let localCart = await JSON.parse(
               localStorage.getItem("CART_STORAGE")
@@ -93,10 +97,11 @@ iconCart.onmouseout = function (e) {
 
           // set amount when delete item on cart
           let itemProduct = JSON.parse(localStorage.getItem("ITEM_PRODUCT"));
-          itemProduct.product.amount =
-            itemProduct.product.amount +
-            JSON.parse(localStorage.getItem("amount"));
-          localStorage.setItem("ITEM_PRODUCT", JSON.stringify(itemProduct));
+          if (itemDeleCart && itemProduct) {
+            itemProduct.product.amount =
+              itemProduct.product.amount + parseInt(itemDeleCart);
+            localStorage.setItem("ITEM_PRODUCT", JSON.stringify(itemProduct));
+          }
 
           // update hiển thị lại số lượng sản phẩm
           if (document.querySelector(".product-amount-stock")) {

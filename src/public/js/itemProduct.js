@@ -928,6 +928,9 @@ async function productItem(id) {
                     currentAmount + parseInt(oldAmount) - parseInt(amount),
                 }),
               });
+              valueAmount = 1;
+              document.querySelector(".text-amount").value = 1;
+              localStorage.setItem("amount", 1);
               return (isCheck = 1);
             } else {
               return (isCheck = 0);
@@ -1068,6 +1071,7 @@ async function productItem(id) {
                   amount: config.product.amount,
                 }),
               });
+              localStorage.setItem("amount", 1);
             }
           } else if (!checkColor || !checkSize || (!checkColor && !checkSize)) {
             document.getElementById("toast").style.top =

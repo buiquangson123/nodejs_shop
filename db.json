@@ -1,0 +1,503 @@
+{
+  "product": [
+    {
+      "id": 13,
+      "img": [
+        "sp1.jpg",
+        "sp1_3.jpg",
+        "sp1_1.jpg",
+        "sp1_2.jpg",
+        "sp1_3.jpg",
+        "sp1_4.jpg",
+        "sp1_5.jpg",
+        "sp1_2.jpg",
+        "sp1_6.jpg"
+      ],
+      "img_deli": "sp_xtra.png",
+      "name": "Combo 5 quần đùi nam thun cotton mặc ở nhà [BIG SIZE] quần short nam ngắn vải thoáng mát",
+      "label_content": "Giảm ₫40k",
+      "label_deal": "Mua kèm Deal sốc",
+      "price_old": "đ230.000,",
+      "price_current": "đ199.000",
+      "item_sold": "Đã bán 1.2k",
+      "origin": "Nhật Bản",
+      "sellOff_percent": "10%",
+      "sellOff_label": "GIẢM",
+      "des": "Yêu thích",
+      "free_ship": 0,
+      "comment": 2,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 10,
+      "amount": 1005
+    },
+    {
+      "id": 20,
+      "img": [
+        "sp2.jpg",
+        "sp2_1.jpg",
+        "sp2_2.jpg",
+        "sp2_3.jpg",
+        "sp2_4.jpg",
+        "sp2_5.jpg",
+        "sp2_6.jpg"
+      ],
+      "img_deli": "sp_xtrahoanxu.png",
+      "name": "Bàn học trẻ em chống gù chống cận thông minh CnHome R8 Lite 🎁𝑭𝑹𝑬𝑬𝑺𝑯𝑰𝑷🎁TẶNG ĐÈN HỌC, ĐỆM NGỒI, CHỐNG CẰM VÀ KẸP GIỮ SÁCH",
+      "label_content": "Giảm ₫7k",
+      "label_deal": "Mua kèm Deal sốc",
+      "price_old": "đ3.100.000",
+      "price_current": "đ1.850.000",
+      "item_sold": "Đã bán 200",
+      "origin": "Hà Nội",
+      "sellOff_percent": "40%",
+      "sellOff_label": "GIẢM",
+      "des": "Yêu thích",
+      "free_ship": 0,
+      "comment": 0,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 6,
+      "amount": 985
+    },
+    {
+      "id": 30,
+      "img": [
+        "sp3.jpg",
+        "sp3_1.jpg",
+        "sp3_2.jpg",
+        "sp3_3.jpg"
+      ],
+      "img_deli": "sp_xtrahoanxu.png",
+      "name": "Bánh trung thu mini Các vị nhân chay và trứng muối",
+      "label_content": "Giảm ₫7k",
+      "label_deal": "Mua kèm Deal sốc",
+      "price_old": "",
+      "price_current": "₫5.500 - ₫8.800",
+      "item_sold": "Đã bán 706",
+      "origin": "Hải Dương",
+      "sellOff_percent": "",
+      "sellOff_label": "",
+      "des": "Mall",
+      "free_ship": 0,
+      "comment": 1.4,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 1.3,
+      "amount": 1004
+    },
+    {
+      "id": 4,
+      "img": [
+        "sp4.jpg",
+        "sp4_2.jpg",
+        "sp4_3.jpg",
+        "sp4_4.jpg",
+        "sp4_5.jpg"
+      ],
+      "img_deli": "trong99.png",
+      "name": "Bánh Trung Thu nướng, dẻo nhân Matcha 150g “ Tặng kèm bánh hình thú”",
+      "label_content": "Giảm ₫40k",
+      "label_deal": "Mua kèm Deal sốc",
+      "price_old": "",
+      "price_current": "₫25.000 - ₫40.000",
+      "item_sold": "Đã bán 459",
+      "origin": "Hà Nội",
+      "sellOff_percent": "",
+      "sellOff_label": "",
+      "des": "",
+      "free_ship": 0,
+      "comment": 10,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 12,
+      "amount": 983
+    },
+    {
+      "id": 5,
+      "img": [
+        "sp5.jpg",
+        "sp5_2.jpg",
+        "sp5_3.jpg",
+        "sp5_4.jpg",
+        "sp5_5.jpg"
+      ],
+      "img_deli": "sp_xtrahoanxu.png",
+      "name": "💥SALE 40%💥GIÁ SÁCH ĐỂ BÀN MẪU 03 SIZE TO (Bảo hành 6 tháng)",
+      "label_content": "Giảm 50%",
+      "label_deal": "Shop đặc biệt",
+      "price_old": "",
+      "price_current": "₫84.000-₫99.000",
+      "item_sold": "Đã bán 745",
+      "origin": "Thái Nguyên",
+      "sellOff_percent": "44%",
+      "sellOff_label": "GIẢM",
+      "des": "Yêu thích",
+      "free_ship": 0,
+      "comment": 30,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 1.2,
+      "amount": 1010
+    },
+    {
+      "id": 6,
+      "img": [
+        "sp6.jpg",
+        "sp6_2.jpg",
+        "sp6_3.jpg",
+        "sp6_4.jpg",
+        "sp6_5.jpg"
+      ],
+      "img_deli": "sp_xtrahoanxu.png",
+      "name": "Sữa bột Colosmulti Pedia hộp 22 gói x 16g chuyên biệt hỗ trợ giúp bé ăn ngoan",
+      "label_content": "Giảm ₫120k",
+      "label_deal": "Mua để nhận quà",
+      "price_old": "₫950.000",
+      "price_current": "₫805.000",
+      "item_sold": "Đã bán 972",
+      "origin": "Hồ Chí Minh",
+      "sellOff_percent": "15%",
+      "sellOff_label": "GIẢM",
+      "des": "Mall",
+      "free_ship": 0,
+      "comment": 100,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 23,
+      "amount": 987
+    },
+    {
+      "id": 7,
+      "img": [
+        "sp7.jpg",
+        "sp7_2.jpg",
+        "sp7_3.jpg",
+        "sp7_4.jpg",
+        "sp7_5.jpg",
+        "sp7_6.jpg"
+      ],
+      "img_deli": "sp_hoanxu.png",
+      "name": "Áo len nữ cổ v tim tay dài form rộng màu đỏ đô Hàn Quốc mùa đông A00310",
+      "label_content": "Giảm 10%",
+      "label_deal": "",
+      "price_old": "₫229.456",
+      "price_current": "₫196.000",
+      "item_sold": "Đã bán 89",
+      "origin": "Quảng Ninh",
+      "sellOff_percent": "15%",
+      "sellOff_label": "GIẢM",
+      "des": "",
+      "free_ship": 0,
+      "comment": 0,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 11,
+      "amount": 987
+    },
+    {
+      "id": 8,
+      "img": [
+        "sp8.jpg",
+        "sp8_2.jpg",
+        "sp8_3.jpg",
+        "sp8_4.jpg",
+        "sp8_5.jpg",
+        "sp8_6.jpg"
+      ],
+      "img_deli": "sp_xtrahoanxu.png",
+      "name": "Giày Da Nam Đẹp Công Sở Buộc Dây Giá Rẻ Mã L162 Giá Chỉ 199K",
+      "label_content": "Giảm ₫40k",
+      "label_deal": "Mua giá bán buôn",
+      "price_old": "₫399.000",
+      "price_current": "₫199.000",
+      "item_sold": "Đã bán 12",
+      "origin": "Bắc Giang",
+      "sellOff_percent": "52%",
+      "sellOff_label": "GIẢM",
+      "des": "",
+      "free_ship": 0,
+      "comment": 0,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 34,
+      "amount": 6785
+    },
+    {
+      "id": 9,
+      "img": [
+        "sp9.jpg",
+        "sp9_2.jpg",
+        "sp9_3.jpg",
+        "sp9_4.jpg",
+        "sp9_5.jpg"
+      ],
+      "img_deli": "",
+      "name": "Dầu gội Palmolive Thái lan 600ml ( Hàng công ty nhập về có tem đầy đủ)",
+      "label_content": "",
+      "label_deal": "",
+      "price_old": "₫160.000",
+      "price_current": "₫80.000",
+      "item_sold": "Đã bán 240",
+      "origin": "Hồ Chí Minh",
+      "sellOff_percent": "50%",
+      "sellOff_label": "GIẢM",
+      "des": "Yêu thích",
+      "free_ship": 0,
+      "comment": 0,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 200,
+      "amount": 1240
+    },
+    {
+      "id": 10,
+      "img": [
+        "sp10.jpg",
+        "sp10_2.jpg",
+        "sp10_3.jpg",
+        "sp10_4.jpg",
+        "sp10_5.jpg",
+        "sp10_6.jpg"
+      ],
+      "img_deli": "sp_xtrahoanxu.png",
+      "name": "[Mã 99FMCGSALE1 giảm 10% đơn 250K] [BÁN CHAY NHẤT] Tông đơ cắt tóc gia đình Jichen tặng kèm nhiều quà tặng",
+      "label_content": "",
+      "label_deal": "Shop đặc biệt",
+      "price_old": "",
+      "price_current": "₫41.000 - ₫242.000",
+      "item_sold": "Đã bán 34.6k",
+      "origin": "Hà Nội",
+      "sellOff_percent": "18%",
+      "sellOff_label": "GIẢM",
+      "des": "Yêu thích",
+      "free_ship": 0,
+      "comment": 100,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 10,
+      "amount": 990
+    },
+    {
+      "id": 11,
+      "img": [
+        "sp11.jpg",
+        "sp11_2.jpg",
+        "sp11_3.jpg",
+        "sp11_4.jpg",
+        "sp11_5.jpg"
+      ],
+      "img_deli": "sp_xtra.png",
+      "name": "Combo Tiết Kiệm 4 món ăn sáng 50g Gia vị Bò kho, Bún bò Huế, Bún riêu, Hủ tiếu - Nấu bữa ăn ngon hàng ngày dễ dàng",
+      "label_content": "Giảm ₫15k",
+      "label_deal": "Shop đặc biệt",
+      "price_old": "",
+      "price_current": "đ156.000",
+      "item_sold": "Đã bán 10",
+      "origin": "Bình Dương",
+      "sellOff_percent": "",
+      "sellOff_label": "",
+      "des": "Yêu thích",
+      "free_ship": 0,
+      "comment": 999,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 69,
+      "amount": 1018
+    },
+    {
+      "id": 12,
+      "img": [
+        "sp12.jpg",
+        "sp12_2.jpg",
+        "sp12_3.jpg",
+        "sp12_4.jpg",
+        "sp12_5.jpg",
+        "sp12_6.jpg"
+      ],
+      "img_deli": "",
+      "name": "[Chính hãng] Rocket 1h - Tăng cường sinh lý nam - Tráng dương bổ thận - Levlong",
+      "label_content": "Giảm ₫10k",
+      "label_deal": "Mua 2 và giảm 10%",
+      "price_old": "₫149.000",
+      "price_current": "₫109.000",
+      "item_sold": "Đã bán 1",
+      "origin": "Hà Nội",
+      "sellOff_percent": "27%",
+      "sellOff_label": "GIẢM",
+      "des": "",
+      "free_ship": 0,
+      "comment": 12,
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "xanh",
+        "đỏ",
+        "vàng",
+        "hồng",
+        "nâu"
+      ],
+      "rate": 4.9,
+      "liked": 12,
+      "amount": 2006
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "des": "hàng hóa"
+    },
+    {
+      "id": 2,
+      "des": "hàng hóa 2"
+    }
+  ]
+}
