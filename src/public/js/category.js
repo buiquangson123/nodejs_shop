@@ -7,11 +7,13 @@ document.documentElement.style.setProperty(
 // Category
 setTimeout(() => {
   //   const withItemCate = $$(".grid__row-cate-item")[0].offsetWidth;
-  const withItemCate = $(".grid__row-cate-item").offsetWidth;
+  let withItemCate;
+  if ($(".grid__row-cate-item")) {
+    withItemCate = $(".grid__row-cate-item").offsetWidth;
+  }
   const amountCate = getComputedStyle(
     $(".grid__row-cate-slides")
   ).getPropertyValue("--amountCate");
-  console.log(">> check width X: ", withItemCate);
   console.log("width: " + withItemCate + " amout: " + amountCate);
   $(".btn-next").addEventListener("click", function () {
     const positionCate = -1 * withItemCate * (13 - amountCate);
