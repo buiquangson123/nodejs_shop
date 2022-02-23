@@ -6,8 +6,8 @@ document.documentElement.style.setProperty(
 
 // Category
 setTimeout(() => {
-  const withItemCate = $$(".grid__row-cate-item")[0].offsetWidth;
-
+  //   const withItemCate = $$(".grid__row-cate-item")[0].offsetWidth;
+  const withItemCate = $(".grid__row-cate-item").offsetWidth;
   const amountCate = getComputedStyle(
     $(".grid__row-cate-slides")
   ).getPropertyValue("--amountCate");
@@ -28,7 +28,7 @@ setTimeout(() => {
     $(".btn-prev").style.display = "none";
     $(".btn-next").style.display = "flex";
   });
-}, 500);
+}, 2000);
 
 // Flash sale
 window.addEventListener("load", function () {
