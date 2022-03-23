@@ -450,6 +450,8 @@ async function productItem(id) {
                                           pro.amount ? pro.amount : 0
                                         } sản phẩm có sẵn</p>
                                     </div>
+
+                                    <div class="noti-amount" style="display: none;"></div>
         
                                     <div class="product-action">
                                         <div class="product-add-cart">
@@ -856,6 +858,11 @@ async function productItem(id) {
                   .classList.remove("pr-noti");
               }
 
+              if (parseInt(textAmount.value) < 0) {
+                this.value = 1;
+                valueAmount = parseInt(this.value);
+              }
+
               valueAmount = parseInt(textAmount.value);
             });
           } else if ((e.keyCode = 13)) {
@@ -866,7 +873,7 @@ async function productItem(id) {
             valueAmount = parseInt(this.value);
           }
 
-          localStorage.setItem("amount", textAmount.value);
+          localStorage.setItem("amount", valueAmount);
         });
 
         textAmount.addEventListener("blur", function () {
@@ -1011,11 +1018,28 @@ async function productItem(id) {
           const checkColor = document.querySelector(
             ".product-btn-color .product-btn--selected"
           );
-          if (checkSize && checkColor && pro.amount > 0) {
+
+          console.log(localStorage.getItem("amount"));
+
+          if (parseInt(textAmount.value) > 0) {
+            document.querySelector(".noti-amount").style.display = "block";
+            document.querySelector(".noti-amount").innerHTML =
+              "Bạn chưa nhập số lượng!";
+          } else {
+            document.querySelector(".noti-product-size").style.display = "none";
+          }
+
+          let amountAdd = localStorage.getItem("amount") || 0;
+          if (
+            checkSize &&
+            checkColor &&
+            pro.amount > 0 &&
+            parseInt(amountAdd) > 0 &&
+            parseInt(textAmount.value) > 0
+          ) {
             document.getElementById("toast").style.top =
               window.scrollY + 30 + "px";
             btnSuccess();
-            let amountAdd = localStorage.getItem("amount");
             await checkItemAddCart(
               pro.id,
               checkSize.innerText,
